@@ -1,0 +1,47 @@
+/* KAYNAKLAR SAYFASINDAKI CSSLER BURADA! */
+
+.walltext {
+	border-radius:15px 50px;
+	background-color:#271D5A;
+	color:white;
+	margin:35px;
+	padding:12px;
+	margin-bottom:8px;
+}
+.walltext:hover
+{
+	background-color:black;
+	color:orange;
+	transition: all 500ms ease-in;
+}
+.readmorebutton a:link {
+	color: white;
+}
+.readmorebutton:hover a:link {
+	color: black;
+}
+.readmorebutton{
+	
+	border-radius: 5%;
+	width: 35%;
+	float: right;
+	text-align: center;
+	background-color:#5850BF;
+}
+.readmorebutton:hover{
+	background-color:white;
+	color:black;
+	transition: all 500ms ease-in;
+}
+
+
+@media screen and (max-width: 768px) { 
+.walltext { 
+		background-color:#271D5A; 
+		color:white; 
+		padding:12px; 
+		margin:15px;
+		width: 75%;
+
+	   }
+}

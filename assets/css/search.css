@@ -1,0 +1,29 @@
+.subara {
+	float: right;
+	width: 45px;
+	margin-top: 6px;
+}
+.searchbar input[type=text] {
+	width: 100px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 6px;
+	background-color: white;
+	background-image: url('searchicon.png');
+	padding: 0px 0px 0px 20px;
+	margin-top: 12px;
+	float: right;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+.searchbar input[type=text]:focus {
+	width: 60%;
+}
+@media screen and (max-width: 767px){
+.searchbar input[type=text]:focus {
+	width: 87%;
+}
+.searchbar input[type=text] {
+float: left;
+}
+}

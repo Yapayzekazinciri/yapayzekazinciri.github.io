@@ -1,0 +1,51 @@
+body { overflow-y: hidden; }
+.contactform{
+	background-color: #271D5A;
+	padding: 15px;
+	border-radius: 15px;
+	color:white;
+	font-family: Arial;
+}
+/* Full-width input fields */
+.sendmail, .adsoyad, .sendmessage
+{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	border: none;
+	background-color: #5850BF;
+}
+.contactform hr 
+{
+	border: 1px solid white;
+	margin-bottom: 25px;
+}
+.contactform h1{
+	text-align: center;
+}
+/* Set a style for all butons */
+.sendbtn
+{
+	border-radius: 10px;
+	background-color: #5850BF;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	opacity: 0.9;
+	float: right;
+}
+.sendbtn:hover { opacity: 1; }
+/* Clear floats */
+.clearfix::after 
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width:300px) {
+.sendbtn {width:100%;}
+}

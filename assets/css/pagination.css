@@ -1,0 +1,24 @@
+/* BURASI SAYFALAMA KISMININ CSS ALANIDIR! */
+.pagination a{
+	font-size: 16px;
+	color: black;
+}
+.pagination a.active{
+	font-size: 16px;
+	color:white;
+}
+.pagination a:hover:not(.active){ 
+	background-color: #271D5A;
+	color:white;
+	border-color: #271D5A;
+}
+.paginer {
+	text-align: center;
+	margin-right: 17%;
+	}
+@media screen and (max-width: 767px) {
+.paginer {
+	text-align: center;
+	margin-right:10px;
+	}
+}

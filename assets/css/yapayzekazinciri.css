@@ -1,0 +1,29 @@
+html,
+body { overflow-x: hidden;}
+body { padding-top: 70px; background-color:#5850BF;}
+footer {padding: 30 0px; color:white; font-size:25px; font-family:Arial; text-align: center; background-color:#271D5A;}
+.navbar {background-color:#271D5A}
+
+@media screen and (max-width: 767px)
+{
+.row-yapayzekazinciri {
+
+		position: relative;
+		-webkit-transition: all .25s ease-out;
+		-o-transition: all .25s ease-out;
+		transition: all .25s ease-out;
+}
+.row-yapayzekazinciri-right { right: 0; }
+.row-yapayzekazinciri-left { left:0; }
+.row-yapayzekazinciri-right
+.sidebar-yapayzekazinciri { right: -50% /* 6 columns */ }
+.row-yapayzekazinciri-left
+.sidebar-yapayzekazinciri { left: -50% /* 6 columns */ }
+.row-yapayzekazinciri-right.active { right: 50% /* 6 columns */ }
+.row-yapayzekazinciri-left.active { left: 50% /* 6 columns */ }
+.sidebar-yapayzekazinciri
+{
+	position: absolute;
+	top: 0;
+	width: 50%; /* 6 columns */
+}
